@@ -282,7 +282,7 @@ function GetSortReviews(hotelcopy,reviews){
    res.json({ hotels: result })
  })
 
-    // - -- - -----------------------------------------------------//
+    // - -- - ------------------------------------------------------//
 
     function filterByCountry(hotelobj,country){
         return hotelobj.country === country;
